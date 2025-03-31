@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
+  @layer utilities {
+    .hover-float {
+      @apply transition-transform duration-300 hover:-translate-y-1 hover:scale-105 hover:shadow-lg;
+    }
+  }
+  
