@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Navbar />
       <div className="bg-black text-white scroll-smooth">
-        <Hero />
+        <Home />
         <AboutMe />
         <Projects />
         <Certifications />

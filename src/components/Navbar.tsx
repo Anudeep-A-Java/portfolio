@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
-const sections = ["hero", "about", "projects", "certifications", "contact"];
+const sections = ["Home", "about", "projects", "certifications", "contact"];
 
 const Navbar = () => {
-  const [active, setActive] = useState("hero");
+  const [active, setActive] = useState("Home");
 
   useEffect(() => {
     const handleScroll = () => {

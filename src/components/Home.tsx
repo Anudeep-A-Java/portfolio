@@ -1,10 +1,10 @@
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
-const Hero = () => {
-  console.log("Hero component is rendering ✅");
+const Home = () => {
+  console.log("Home component is rendering ✅");
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 text-white overflow-hidden bg-transparent">
+    <section id="Home" className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 text-white overflow-hidden bg-transparent">
     <ParticlesBackground />
 
       <motion.div
@@ -23,8 +23,9 @@ const Hero = () => {
         </h2>
 
         <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto leading-relaxed text-gray-300">
-          Passionate about building scalable, high-performance apps with clean
-          code and modern tech like React, Spring Boot, MongoDB & more.
+          Engineering robust, scalable, and secure web applications using Java (17), Spring Boot, React, Angular, and MongoDB. 
+          Skilled in designing microservices, building REST & GraphQL APIs, and deploying cloud-native solutions with AWS, 
+          Docker, and Kubernetes.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center">
@@ -49,4 +50,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

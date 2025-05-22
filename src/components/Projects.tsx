@@ -21,7 +21,7 @@ const Projects = () => {
               Built with React, Spring Boot, and MongoDB.
             </p>
             <a
-              href="https://github.com/Anudeep-A-Java/job-tracker"
+              href="https://github.com/Anudeep-A-Java/job-tracker-project"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition"
