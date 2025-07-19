@@ -20,7 +20,7 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <a
-            href="mailto:anudeepallamsetty4@gmail.com"
+            href="mailto:allamsettyanudeep.dev@gmail.com"
             className="bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg text-white font-semibold transition hover-float"
           >
             Email Me
