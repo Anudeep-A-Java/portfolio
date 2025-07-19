@@ -33,13 +33,14 @@ const Home = () => {
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-left">
-            Full Stack Java Developer
+            Full Stack Java Developer | Cloud-Native Microservices | API Integration Expert
           </h2>
 
           <p className="text-lg md:text-xl mb-6 leading-relaxed text-gray-300 text-center md:text-left">
-            Engineering robust, scalable, and secure web applications using Java (17), Spring Boot, React, Angular, and MongoDB.
-            Skilled in designing microservices, building REST & GraphQL APIs, and deploying cloud-native solutions with AWS,
-            Docker, and Kubernetes.
+            I specialize in building enterprise grade, cloud native applications using Java 17, Springboot,
+            React, Angular, and MongoDB. With 5+ years of experience, I'have designed scalable microservices,
+            deployed secure REST & GraphQL APIs, and deployed robust solutions on AWS using Docker and Kubernetes.
+            I am passionate about clean architecture, CI/CD and performance optimization.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
