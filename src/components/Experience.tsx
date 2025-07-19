@@ -14,7 +14,7 @@ const experienceData = [
     company: "Seaboard Corporation",
     logo: "/seaboard.svg",
     role: "Java Full Stack Developer",
-    duration: "Sep 2022 – Dec 2023",
+    duration: "Sep 2023 – Dec 2023",
     location: "Merriam, Kansas, USA",
     borderColor: "border-green-500",
     shadowColor: "hover:shadow-green-500",
