@@ -42,10 +42,10 @@ const Contact = () => {
             GitHub
           </a>
           <a
-            href="tel:(913)298-0164"
+            href="tel:(913)303-1252"
             className="border border-green-500 text-green-400 hover:bg-green-600 hover:text-white py-3 px-6 rounded-lg font-semibold transition hover-float"
           >
-            Call: (913)298-0164
+            Call: (913)303-1252
           </a>
         </div>
       </motion.div>
