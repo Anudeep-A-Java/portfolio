@@ -4,7 +4,7 @@ const experienceData = [
   {
     company: "Zurich Insurance Group",
     logo: "/zurich.svg",
-    role: "Java Full Stack Developer",
+    role: "Software Engineer",
     duration: "Jan 2024 – Present",
     location: "Overland Park, Kansas, USA",
     borderColor: "border-blue-500",
