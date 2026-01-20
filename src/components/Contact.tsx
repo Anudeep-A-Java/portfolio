@@ -26,7 +26,7 @@ const Contact = () => {
             Email Me
           </a>
           <a
-            href="https://www.linkedin.com/in/anudeep-allamsetty-5137a1162/"
+            href="https://www.linkedin.com/in/anudeep-a-5137a1162/"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white py-3 px-6 rounded-lg font-semibold transition hover-float"
