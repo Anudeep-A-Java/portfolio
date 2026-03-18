@@ -30,7 +30,7 @@ const experienceData: Experience[] = [
   },
   {
     company: "Regal Rexnord Corporation",
-    logo: "/seaboard.svg",
+    logo: "/rr.svg",
     role: "Backend Java Developer",
     duration: "JAN 2024 – JUN 2024",
     borderColor: "border-green-500",
