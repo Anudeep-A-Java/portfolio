@@ -14,7 +14,7 @@ type Experience = {
 const experienceData: Experience[] = [
   {
     company: "Insmed Incorporated",
-    logo: "/zurich.svg",
+    logo: "/insmed.svg",
     role: "Software Engineer",
     duration: "JUN 2025 – Present",
     borderColor: "border-blue-500",
