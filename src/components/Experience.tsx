@@ -22,7 +22,7 @@ const experienceData: Experience[] = [
   },
   {
     company: "Bank of New York Mellon",
-    logo: "/seaboard.svg",
+    logo: "/bny.svg",
     role: "Java Full Stack Developer",
     duration: "JUN 2024 – JUN 2025",
     borderColor: "border-green-500",
