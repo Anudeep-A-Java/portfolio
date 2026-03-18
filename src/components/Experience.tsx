@@ -47,7 +47,7 @@ const experienceData: Experience[] = [
   },
   {
     company: "Birlasoft India",
-    logo: "/solara.svg",
+    logo: "/birlasoft.svg",
     role: "Java Developer",
     duration: "JAN 2021 – JUL 2021",
     location: "Chennai, India",
@@ -56,7 +56,7 @@ const experienceData: Experience[] = [
   },
   {
     company: "Sonata Software Solutions",
-    logo: "/solara.svg",
+    logo: "/sss.svg",
     role: "Software Development Intern",
     duration: "MAY 2020 – DEC 2020",
     location: "Chennai, India",
