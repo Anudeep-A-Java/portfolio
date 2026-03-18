@@ -20,13 +20,13 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
           <a
-            href="mailto:allamsettyanudeep.dev@gmail.com"
+            href="mailto:anudeepa0612@gmail.com"
             className="bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg text-white font-semibold transition hover-float"
           >
             Email Me
           </a>
           <a
-            href="https://www.linkedin.com/in/anudeep-a-5137a1162/"
+            href="https://www.linkedin.com/in/anudeep06/"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white py-3 px-6 rounded-lg font-semibold transition hover-float"
@@ -42,10 +42,10 @@ const Contact = () => {
             GitHub
           </a>
           <a
-            href="tel:(913)303-1252"
+            href="tel:(840)888-9831"
             className="border border-green-500 text-green-400 hover:bg-green-600 hover:text-white py-3 px-6 rounded-lg font-semibold transition hover-float"
           >
-            Call: (913)303-1252
+            Call: (840)888-9831
           </a>
         </div>
       </motion.div>
