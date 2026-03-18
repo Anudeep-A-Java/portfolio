@@ -2,37 +2,52 @@ import { motion } from "framer-motion";
 
 const experienceData = [
   {
-    company: "Zurich Insurance Group",
+    company: "Insmed Incorporated",
     logo: "/zurich.svg",
     role: "Software Engineer",
-    duration: "Jan 2024 – Present",
-    location: "Overland Park, Kansas, USA",
+    duration: "JUN 2025 – Present",
     borderColor: "border-blue-500",
     shadowColor: "hover:shadow-blue-500",
   },
   {
-    company: "Seaboard Corporation",
+    company: "Bank of New York Mellon",
     logo: "/seaboard.svg",
     role: "Java Full Stack Developer",
-    duration: "Sep 2023 – Dec 2023",
-    location: "Merriam, Kansas, USA",
+    duration: "JUN 2024 – JUN 2025",
     borderColor: "border-green-500",
     shadowColor: "hover:shadow-green-500",
   },
   {
-    company: "Cognizant (Key Bank)",
+    company: "Regal Rexnord Corporation",
+    logo: "/seaboard.svg",
+    role: "Backend Java Developer",
+    duration: "JAN 2024 – JUN 2024",
+    borderColor: "border-green-500",
+    shadowColor: "hover:shadow-green-500",
+  },
+  {
+    company: "Cognizant",
     logo: "/cognizant.svg",
-    role: "Java Full Stack Developer",
-    duration: "Aug 2021 – May 2022",
+    role: "Software Engineer ",
+    duration: "AUG 2021 – MAY 2022",
     location: "Chennai, India",
     borderColor: "border-cyan-500",
     shadowColor: "hover:shadow-cyan-500",
   },
   {
-    company: "Solara Active Pharma Sciences Ltd",
+    company: "Birlasoft India",
     logo: "/solara.svg",
     role: "Java Developer",
-    duration: "Mar 2019 – Jul 2021",
+    duration: "JAN 2021 – JUL 2021",
+    location: "Chennai, India",
+    borderColor: "border-red-500",
+    shadowColor: "hover:shadow-red-500",
+  },
+  {
+    company: "Sonata Software Solutions",
+    logo: "/solara.svg",
+    role: "Software Development Intern ",
+    duration: "MAY 2020 – DEC 2020",
     location: "Chennai, India",
     borderColor: "border-red-500",
     shadowColor: "hover:shadow-red-500",
@@ -40,26 +55,53 @@ const experienceData = [
 ];
 
 const bulletsMap: { [key: string]: string[] } = {
-  "Zurich Insurance Group": [
-    "Migrated monolithic claim modules to Spring Boot microservices, improving agility by 60%.",
-    "Processed 100K+ claims/day using Kafka Streams pipeline.",
-    "Built Angular 17 dashboards with NgRx and AG Grid for 1M+ row datasets.",
+  "Insmed Incorporated": [
+    "Led migration of 15+ healthcare applications to AWS EKS, reducing infrastructure cost by 35% and achieving 99.95% uptime.",
+    "Built 12+ Java 17 Spring Boot microservices with Kafka processing 500K+ healthcare events daily.",
+    "Optimized PostgreSQL queries and Redis caching, reducing API latency by 40% and database load by 60%.",
+    "Developed React dashboards for clinical trials enabling real-time tracking for 50K+ users.",
+    "Implemented CI/CD pipelines using Jenkins + GitHub Actions, reducing release cycles from 2 weeks to 3 days."
   ],
-  "Seaboard Corporation": [
-    "Built commodity pricing dashboard with React and Redux Toolkit.",
-    "Configured Azure Functions and DevOps pipelines with gated approvals.",
-    "Migrated UI from Angular to React and integrated Kafka + PostgreSQL stack.",
+
+  "Bank of New York Mellon": [
+    "Developed 8 microservices handling $2.3M+ daily transactions with 99.97% uptime.",
+    "Designed 40+ REST APIs with OpenAPI standards for banking and payment integrations.",
+    "Implemented Kafka-based event-driven architecture processing 1.2M+ events/day.",
+    "Built React dashboards with WebSocket real-time updates for trade monitoring.",
+    "Improved database performance by 35% using indexing and query optimization."
   ],
-  "Cognizant (Key Bank)": [
-    "Converted legacy Struts to Spring Boot with REST APIs and DAO layers.",
-    "Deployed apps in Kubernetes using Helm; integrated ELK stack for monitoring.",
-    "Implemented JWT authentication and CSRF protection in customer onboarding portal.",
+
+  "Regal Rexnord Corporation": [
+    "Built IoT microservices processing 100K+ sensor events per minute across 25K+ machines.",
+    "Designed AWS IoT + Lambda pipelines for anomaly detection reducing downtime by 30%.",
+    "Created Angular dashboards for real-time machine monitoring and predictive maintenance.",
+    "Optimized TimescaleDB schemas improving analytics query performance by 25%.",
+    "Scaled ECS workloads from 4 to 20 instances using auto-scaling during peak loads."
   ],
-  "Solara Active Pharma Sciences Ltd": [
-    "Developed Spring Batch jobs to automate inventory restocking, reducing manual work by 70%.",
-    "Created React + Spring Boot modules for clinical trial data logging with audit trail.",
-    "Integrated MongoDB for unstructured clinical data and optimized Oracle queries for performance.",
+
+  "Cognizant Technology Solutions": [
+    "Developed banking platform serving 2M+ users with account, payment, and transfer modules.",
+    "Built REST APIs using JAX-RS enabling seamless mobile and third-party integrations.",
+    "Implemented scheduled batch jobs for payments and statements using Quartz Scheduler.",
+    "Improved MySQL query performance by 20% for transaction history features.",
+    "Enhanced security with OWASP practices preventing SQL injection, XSS, and CSRF."
   ],
+
+  "Birlasoft India": [
+    "Developed Spring Boot APIs handling 50K+ daily telecom transactions.",
+    "Built ETL pipelines using Spring Batch processing 200K+ customer billing records.",
+    "Implemented JWT authentication and RBAC for secure API access.",
+    "Designed PostgreSQL and MongoDB schemas for scalable telecom operations.",
+    "Developed Angular dashboards for CRM workflows and reporting."
+  ],
+
+  "Sonata Software Solutions": [
+    "Developed backend modules for travel booking platform using Java and Spring MVC.",
+    "Built REST APIs integrating airline systems for real-time flight availability.",
+    "Designed MySQL schemas for booking and payment workflows.",
+    "Developed responsive UI using HTML, CSS, and JavaScript.",
+    "Wrote unit tests and participated in code reviews to improve code quality."
+  ]
 };
 
 const Experience = () => {
