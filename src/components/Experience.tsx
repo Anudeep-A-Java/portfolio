@@ -16,6 +16,7 @@ const experienceData: Experience[] = [
     logo: "/insmed.svg",
     role: "Software Engineer",
     duration: "NOV 2025 – Present",
+    location: "Missouri, USA",
     borderColor: "border-blue-500",
     shadowColor: "hover:shadow-blue-500",
   },
@@ -24,6 +25,7 @@ const experienceData: Experience[] = [
     logo: "/bny.svg",
     role: "Java Full Stack Developer",
     duration: "JUN 2024 – OCT 2025",
+    location: "New York City, NY, USA",
     borderColor: "border-green-500",
     shadowColor: "hover:shadow-green-500",
   },
@@ -42,7 +44,7 @@ const experienceData: Experience[] = [
     logo: "/birlasoft.svg",
     role: "Java Developer",
     duration: "MAY 2020 – JUL 2021",
-    location: "Chennai, India",
+    location: "Andhra Pradesh, India",
     borderColor: "border-red-500",
     shadowColor: "hover:shadow-red-500",
   },
@@ -51,7 +53,7 @@ const experienceData: Experience[] = [
 const bulletsMap: Record<string, string[]> = {
   "Insmed Incorporated": [
     "Built healthcare patient services platform supporting onboarding, workflow tracking, and clinical data processing using Java 17, Spring Boot, and Microservices architecture",
-    "Engineered 10+ microservices integrated with Apache Kafka for asynchronous event processing of patient workflows and system notifications,
+    "Engineered 10+ microservices integrated with Apache Kafka for asynchronous event processing of patient workflows and system notifications",
     "Optimized PostgreSQL queries and implemented Redis caching, improving API response time by 25–30% and reducing database load",
     "Developed React-based dashboards for internal users to monitor patient workflows and real-time healthcare data",
     "Deployed applications on AWS (EKS, EC2, RDS) with Docker and Kubernetes, ensuring high availability and scalable infrastructure"
