@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// ✅ TYPE SAFETY (prevents Vercel build errors)
 type Experience = {
   company: string;
   logo: string;
@@ -16,7 +15,7 @@ const experienceData: Experience[] = [
     company: "Insmed Incorporated",
     logo: "/insmed.svg",
     role: "Software Engineer",
-    duration: "JUN 2025 – Present",
+    duration: "NOV 2025 – Present",
     borderColor: "border-blue-500",
     shadowColor: "hover:shadow-blue-500",
   },
@@ -24,18 +23,11 @@ const experienceData: Experience[] = [
     company: "Bank of New York Mellon",
     logo: "/bny.svg",
     role: "Java Full Stack Developer",
-    duration: "JUN 2024 – JUN 2025",
+    duration: "JUN 2024 – OCT 2025",
     borderColor: "border-green-500",
     shadowColor: "hover:shadow-green-500",
   },
-  {
-    company: "Regal Rexnord Corporation",
-    logo: "/rr.svg",
-    role: "Backend Java Developer",
-    duration: "JAN 2024 – JUN 2024",
-    borderColor: "border-green-500",
-    shadowColor: "hover:shadow-green-500",
-  },
+  
   {
     company: "Cognizant",
     logo: "/cognizant.svg",
@@ -49,16 +41,7 @@ const experienceData: Experience[] = [
     company: "Birlasoft India",
     logo: "/birlasoft.svg",
     role: "Java Developer",
-    duration: "JAN 2021 – JUL 2021",
-    location: "Chennai, India",
-    borderColor: "border-red-500",
-    shadowColor: "hover:shadow-red-500",
-  },
-  {
-    company: "Sonata Software Solutions",
-    logo: "/sss.svg",
-    role: "Software Development Intern",
-    duration: "MAY 2020 – DEC 2020",
+    duration: "MAY 2020 – JUL 2021",
     location: "Chennai, India",
     borderColor: "border-red-500",
     shadowColor: "hover:shadow-red-500",
@@ -67,53 +50,36 @@ const experienceData: Experience[] = [
 
 const bulletsMap: Record<string, string[]> = {
   "Insmed Incorporated": [
-    "Led migration of 15+ healthcare applications to AWS EKS, reducing infrastructure cost by 35% and achieving 99.95% uptime.",
-    "Built 12+ Java 17 Spring Boot microservices with Kafka processing 500K+ healthcare events daily.",
-    "Optimized PostgreSQL queries and Redis caching, reducing API latency by 40% and database load by 60%.",
-    "Developed React dashboards for clinical trials enabling real-time tracking for 50K+ users.",
-    "Implemented CI/CD pipelines using Jenkins + GitHub Actions, reducing release cycles from 2 weeks to 3 days."
+    "Built healthcare patient services platform supporting onboarding, workflow tracking, and clinical data processing using Java 17, Spring Boot, and Microservices architecture",
+    "Engineered 10+ microservices integrated with Apache Kafka for asynchronous event processing of patient workflows and system notifications,
+    "Optimized PostgreSQL queries and implemented Redis caching, improving API response time by 25–30% and reducing database load",
+    "Developed React-based dashboards for internal users to monitor patient workflows and real-time healthcare data",
+    "Deployed applications on AWS (EKS, EC2, RDS) with Docker and Kubernetes, ensuring high availability and scalable infrastructure"
   ],
 
   "Bank of New York Mellon": [
-    "Developed 8 microservices handling $2.3M+ daily transactions with 99.97% uptime.",
-    "Designed 40+ REST APIs with OpenAPI standards for banking and payment integrations.",
-    "Implemented Kafka-based event-driven architecture processing 1.2M+ events/day.",
-    "Built React dashboards with WebSocket real-time updates for trade monitoring.",
-    "Improved database performance by 35% using indexing and query optimization."
+    "Developed banking transaction processing platform handling high-volume financial data using Java 11, Spring Boot, and Microservices architecture",
+    "Built and enhanced 30+ RESTful APIs for transaction processing, reporting, and integration with internal banking systems",
+    "Implemented Apache Kafka for event-driven processing, enabling asynchronous handling of financial transactions",
+    "Developed Angular 12 dashboards for transaction monitoring and reporting with real-time data updates",
+    "Improved database performance (Oracle, PostgreSQL) through indexing and query optimization, reducing latency by 20–25%"
   ],
 
-  "Regal Rexnord Corporation": [
-    "Built IoT microservices processing 100K+ sensor events per minute across 25K+ machines.",
-    "Designed AWS IoT + Lambda pipelines for anomaly detection reducing downtime by 30%.",
-    "Created Angular dashboards for real-time machine monitoring and predictive maintenance.",
-    "Optimized TimescaleDB schemas improving analytics query performance by 25%.",
-    "Scaled ECS workloads from 4 to 20 instances using auto-scaling during peak loads."
-  ],
-
-  // ✅ FIXED KEY
   "Cognizant": [
-    "Developed banking platform serving 2M+ users with account, payment, and transfer modules.",
-    "Built REST APIs using JAX-RS enabling seamless mobile and third-party integrations.",
-    "Implemented scheduled batch jobs for payments and statements using Quartz Scheduler.",
-    "Improved MySQL query performance by 20% for transaction history features.",
-    "Enhanced security with OWASP practices preventing SQL injection, XSS, and CSRF."
+    "Developed customer account and transaction management system using Java 8, Spring Boot, and RESTful APIs",
+    "Built backend services supporting account operations, transaction processing, and reporting workflows",
+    "Designed Angular 10 UI components for account dashboards and transaction views",
+    "Improved database performance using MySQL query optimization and indexing techniques",
+    "Implemented batch processing using Spring Batch for scheduled data processing and reporting"
   ],
 
   "Birlasoft India": [
-    "Developed Spring Boot APIs handling 50K+ daily telecom transactions.",
-    "Built ETL pipelines using Spring Batch processing 200K+ customer billing records.",
-    "Implemented JWT authentication and RBAC for secure API access.",
-    "Designed PostgreSQL and MongoDB schemas for scalable telecom operations.",
-    "Developed Angular dashboards for CRM workflows and reporting."
+    "Developed internal business process management application using Core Java, JSP, Servlets, and Spring Framework",
+    "Built basic REST APIs for data exchange between frontend and backend modules",
+    "Developed AngularJS-based UI components for workflow forms and internal dashboards",
+    "Worked with MySQL database for CRUD operations and data handling",
+    "Assisted in debugging, testing, and deployment activities across environments"
   ],
-
-  "Sonata Software Solutions": [
-    "Developed backend modules for travel booking platform using Java and Spring MVC.",
-    "Built REST APIs integrating airline systems for real-time flight availability.",
-    "Designed MySQL schemas for booking and payment workflows.",
-    "Developed responsive UI using HTML, CSS, and JavaScript.",
-    "Wrote unit tests and participated in code reviews to improve code quality."
-  ]
 };
 
 const Experience = () => {
